@@ -1,3 +1,5 @@
+require_relative 'application_controller'
+
 class GenresController < ApplicationController
     get '/genres' do
       @genres = Genre.all
