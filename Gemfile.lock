@@ -46,6 +46,8 @@ GEM
       method_source (~> 0.9.0)
     public_suffix (4.0.1)
     rack (2.0.8)
+    rack-flash (0.1.2)
+      rack
     rack-protection (2.0.7)
       rack
     rack-test (1.1.0)
@@ -53,6 +55,7 @@ GEM
     rake (13.0.1)
     regexp_parser (1.6.0)
     require_all (3.0.0)
+    require_relative (1.0.3)
     ripl (0.7.1)
       bond (~> 0.5.1)
     ripl-multi_line (0.3.1)
@@ -110,9 +113,11 @@ DEPENDENCIES
   database_cleaner
   launchy
   pry
+  rack-flash
   rack-test
   rake
   require_all
+  require_relative
   rspec
   shotgun
   sinatra
@@ -122,4 +127,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
